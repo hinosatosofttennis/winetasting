@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { initialOptions } from '../TastingData';
+import { initialOptions } from './TastingData';
 import { fetchCustomOptions, saveCustomOptions } from '../utils/Firestore';
 
 const SettingsView = ({ user }) => {
