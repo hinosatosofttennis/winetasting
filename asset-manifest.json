@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/winetasting/static/js/main.cf07e4ad.js",
+    "index.html": "/winetasting/index.html",
+    "main.cf07e4ad.js.map": "/winetasting/static/js/main.cf07e4ad.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cf07e4ad.js"
+  ]
+}
