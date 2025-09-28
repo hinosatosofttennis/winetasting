@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { whiteWineChecks, redWineChecks, initialOptions } from '../TastingData';
+import { whiteWineChecks, redWineChecks, initialOptions } from './TastingData';
 import { saveTastingRecord, fetchCustomOptions } from '../utils/Firestore';
 import styled from 'styled-components';
 
