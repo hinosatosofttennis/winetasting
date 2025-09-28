@@ -80,7 +80,6 @@ const TastingForm = ({ user }) => {
         }));
       });
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
   // 2. 選択肢のハンドリングロジック
