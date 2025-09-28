@@ -1,7 +1,7 @@
 {
   "name": "winetasting",
   "version": "1.0.0",
-  "homepage": "https://hibosatosofttennis.github.io/winetasting",
+  "homepage": "https://hinosatosofttennis.github.io/winetasting",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
