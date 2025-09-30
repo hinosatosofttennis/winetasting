@@ -168,11 +168,11 @@ const TastingForm = ({ user }) => {
 
     try {
         await saveTastingRecord(user, recordData);
-        alert('✅ テイスティング結果を保存し、同期しました！');
+        alert(' ⭕ テイスティング結果を保存し、同期しました！');
         setFormData({}); // フォームクリア
         setOpenSection('Appearance');
     } catch (error) {
-        alert("履歴の保存に失敗しました: " + error.message);
+        alert(" ❌ 履歴の保存に失敗しました: " + error.message);
     }
   };
 
