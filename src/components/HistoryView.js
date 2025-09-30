@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { fetchTastingRecords } from '../utils/Firestore';
 import styled from 'styled-components';
-
 // ======================= スタイル定義 =======================
 const HistoryContainer = styled.div`
   padding: 20px;
