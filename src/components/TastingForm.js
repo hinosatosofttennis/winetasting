@@ -168,7 +168,7 @@ const TastingForm = ({ user }) => {
 
     try {
         await saveTastingRecord(user, recordData);
-        alert('テイスティング結果を保存し、同期しました！');
+        alert('✅ テイスティング結果を保存し、同期しました！');
         setFormData({}); // フォームクリア
         setOpenSection('Appearance');
     } catch (error) {
