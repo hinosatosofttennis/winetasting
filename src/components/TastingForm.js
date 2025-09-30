@@ -66,6 +66,7 @@ const TastingForm = ({ user }) => {
   const [customOptions, setCustomOptions] = useState(initialOptions);
   const [openSection, setOpenSection] = useState('Appearance'); 
   const currentChecks = wineType === 'white' ? whiteWineChecks : redWineChecks;
+  const [tastingDate, setTastingDate] = useState(new Date().toISOString().substring(0, 10));
 
   // 1. カスタムオプションの読み込み
   useEffect(() => {
