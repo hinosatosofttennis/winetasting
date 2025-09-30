@@ -3,6 +3,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth } from './firebaseConfig';
 import FirebaseAuth from './components/FirebaseAuth';
 import TastingForm from './components/TastingForm';
+import TastingData from './components/TastingData';
 import HistoryView from './components/HistoryView';
 import SettingsView from './components/SettingsView';
 
