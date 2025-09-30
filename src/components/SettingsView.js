@@ -26,7 +26,7 @@ const SettingsView = ({ user }) => {
             await saveCustomOptions(user.uid, newOptions);
             setOptions(newOptions);
             setNewOption('');
-            alert('新しい選択肢を追加しました！');
+            alert('✅ 新しい選択肢を追加しました！');
         } catch (e) {
             alert('追加に失敗しました: ' + e.message);
         }
