@@ -1,6 +1,5 @@
 # Reactアプリは環境変数名の先頭に REACT_APP_ が必要
 # FirebaseConfig.js の代わりにこのファイルから読み込めます
-REACT_APP_FIREBASE_API_KEY="AIzaSyAPhtVLQpYRtznCLgzqK64ZR3MdVuDkGPI"
 REACT_APP_FIREBASE_AUTH_DOMAIN="my-app-01-179e9.firebaseapp.com"
 REACT_APP_FIREBASE_PROJECT_ID="my-app-01-179e9"
 REACT_APP_FIREBASE_STORAGE_BUCKET="my-app-01-179e9.firebasestorage.app",
